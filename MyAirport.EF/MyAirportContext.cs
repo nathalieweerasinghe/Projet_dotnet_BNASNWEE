@@ -5,6 +5,10 @@ namespace BNASNWEE.MyAirport.EF
 {
     public class MyAirportContext : DbContext
     {
+        public MyAirportContext(DbContextOptions<MyAirportContext> option)
+            : base(option)
+        {
+        }
         public DbSet<Vol> Vols { get; set; }
         public DbSet<Bagage> Bagages { get; set; }
 

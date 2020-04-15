@@ -3,9 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29806.167
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{037EEC25-583A-439E-90C5-20747131EC27}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{037EEC25-583A-439E-90C5-20747131EC27}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BNASNWEE.MyAirport.EF", "MyAirport.EF\BNASNWEE.MyAirport.EF.csproj", "{6158E9E5-475D-49E2-BEB7-2DA32CC2E83B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BNASNWEE.MyAirport.EF", "MyAirport.EF\BNASNWEE.MyAirport.EF.csproj", "{6158E9E5-475D-49E2-BEB7-2DA32CC2E83B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyAirportWebApi", "MyAirportWebApi\MyAirportWebApi.csproj", "{48E3FC93-EC26-4878-AC4A-4D4195BA9EB5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyAirportGraphQL", "MyAirportGraphQL\MyAirportGraphQL.csproj", "{9F8A0171-91EE-4EBC-A134-8DDC48269104}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{6158E9E5-475D-49E2-BEB7-2DA32CC2E83B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6158E9E5-475D-49E2-BEB7-2DA32CC2E83B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6158E9E5-475D-49E2-BEB7-2DA32CC2E83B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48E3FC93-EC26-4878-AC4A-4D4195BA9EB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48E3FC93-EC26-4878-AC4A-4D4195BA9EB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48E3FC93-EC26-4878-AC4A-4D4195BA9EB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48E3FC93-EC26-4878-AC4A-4D4195BA9EB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F8A0171-91EE-4EBC-A134-8DDC48269104}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F8A0171-91EE-4EBC-A134-8DDC48269104}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F8A0171-91EE-4EBC-A134-8DDC48269104}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F8A0171-91EE-4EBC-A134-8DDC48269104}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
